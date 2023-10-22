@@ -1,6 +1,66 @@
 body{
    background-color: rgb(2, 2, 61);
 }
+h1{
+   color: white;
+   text-align: center;
+   text-transform: uppercase;
+}
+span{
+   margin-left: 350px;
+   font-size: 50px;
+   font-weight: bold;
+  
+}
 p{
    color: white;
+}
+.calulatorContainer{
+   background-color: white;
+   border: none;
+   border-radius: 30px;
+   padding: 20px;
+   width: 400px;
+   margin-left: 450px;
+   
+   
+   
+}
+.calNumbers{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   
+   
+}
+.Numbers{
+   padding: 25px 30px;
+   background-color: white;
+   border: none;
+   border-radius: 20px;
+   margin: 15px;
+   box-shadow: 3px 3px 3px 3px rgb(227, 224, 224);
+   cursor: pointer;
+   font-size: 18px;
+   font-weight: bold;
+
+}
+.Numbers:hover{
+   background-color: rgb(219, 219, 222);
+   color: black;
+}
+.symbols{
+   padding: 25px 30px;
+   background-color: white;
+   border: none;
+   border-radius: 20px;
+   margin: 15px;
+   box-shadow: 3px 3px 3px 3px rgb(227, 224, 224);
+   cursor: pointer;
+   font-size: 18px;
+   font-weight: bold;
+   color: rgb(197, 67, 6);
+}
+.symbols:hover{
+   background-color: rgb(219, 219, 222);
+   color: black;
 }
